@@ -124,4 +124,8 @@ CSS (Flexbox, Grid, PostCSS, CSSNext)
 
     
 ###grid-gap
+    ex: grid-gap:10px 그리드 사이사이 간격값
+    
+###grid-auto-columns,rows
+    나머지 요소값들에 자동으로 적용.
                
