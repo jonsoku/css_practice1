@@ -8,7 +8,7 @@ CSS (Flexbox, Grid, PostCSS, CSSNext)
 - [x] Main Axis and Cross Axis
 - [x] Flex Direction
 - [x] Flex Wrap
-- [ ] Align Self
+- [x] Align Self
 
 ### CSS Grid
 
@@ -78,6 +78,7 @@ CSS (Flexbox, Grid, PostCSS, CSSNext)
     - cross axis에 있는 아이템을 움직이려면, align-items
     - main axix에 있는 아이템을 움직이려면 justify-content
      */
+     
 ###flex-wrap
     Flex는 아이템들끼리 공간이 부족할때는 기본적으로 찌그러진다.
     어쩔때는 좋지만 별로 좋지않을때도 있다..
@@ -87,7 +88,13 @@ CSS (Flexbox, Grid, PostCSS, CSSNext)
     - flex-wrap : nowrap -> 디폴트값
     
     정리 : 아이템들 사이에 더이상 공간이 없을 때 flexbox가 해야할 행동들을 정의할 수 있다.
+
 ###flex-direction
     float : left, right의 기능..?
     flex-direction : row, row-reverse, column, column-reverse 등이 있다.
     겁나좋은데..?
+    
+    
+### align-self
+    father(박스의 상위태그)에게 주는 옵션이 아닌, box와 같은 아이템들에 직접 옵션을 주는놈
+    => flex-container 대신에 flex-item들에게 주는 것.
