@@ -10,36 +10,37 @@
 
         .father{
             display:grid;
-            grid-gap: 5px;
-            /* fr : fraction */
-            /* grid-template-columns: 1fr 2fr 3fr 4fr; */
-            grid-template-columns: min-content repeat(3, 1fr);
+            grid-gap: 10px;
+            grid-auto-rows: 100px;
+            grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
 
 
         }
 
-        .first{
-            background-color: #ffdd00;
-        }
-        .second{
+        .box:nth-child(even){
             background-color: #00a4e4;
         }
-        .third{
-            background-color: #00a78e
-        }
-        .fourth{
-            background-color: #ff4c4c
+        .box:nth-child(odd){
+            background-color: #f3f4f7;
         }
 
 
     </style>
 </head>
 <body>
-<div class="father">
-    <div class="first">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusantium adipisci cum doloremque enim et ex impedit iusto, labore magni, nam, neque nobis optio possimus quas quod quos ut voluptas.</div>
-    <div class="second">2</div>
-    <div class="third">3</div>
-    <div class="fourth">4</div>
-</div>
+    <div class="father">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
 </body>
 </html>

@@ -163,4 +163,11 @@ CSS (Flexbox, Grid, PostCSS, CSSNext)
     max-content : 박스안에 내용만큼 너비를 늘려줌 (타이틀만들때유용하겠네!)
             
 ### auto-fill, auto-fit
-     
+    auto-fit : 가능한 많이 채워 넣어라. 양쪽에 딱 달라붙는다.
+    => grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); 
+    => autofit을 쓸 때, minmax를 사용하느냐 안하냐에 따라 많은 차이가 있다.
+    ghost grid를 만들지 않고 content를 받아와서 width100%만큼 펼쳐준다.
+    
+    auto-fill : 공간을 미리 배정해둔 grid를 만든 뒤에 , 해당하는  cell이 입력되는 방식으로 작동
+    => grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
+    일단 ghost grid를 만들고 가능한 많은 cell로 container를 꽉 채우는 놈.. cell은 비어있을 수 있다. (box가 없으면)
