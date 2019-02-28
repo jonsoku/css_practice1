@@ -16,9 +16,9 @@ CSS (Flexbox, Grid, PostCSS, CSSNext)
 - [x] Auto columns, auto rows
 - [x] Template Areas
 - [x] fr unit, repeat
-- [ ] minmax, max-content, min-content
-- [ ] auto-fill, auto-fit
-- [ ] Justify Content, Align Content and Place Content
+- [x] minmax, max-content, min-content
+- [x] auto-fill, auto-fit
+- [x] Justify Content, Align Content and Place Content
 - [ ] Justify Items, Align Items and Place Items
 - [ ] Grid Column, Column Start and End
 - [ ] Line Naming
@@ -58,6 +58,7 @@ CSS (Flexbox, Grid, PostCSS, CSSNext)
 
 
 ##FLEX
+
 ### Flex의 기본 개념 두가지
     Flex-container와 Flex-item
 
@@ -113,10 +114,12 @@ CSS (Flexbox, Grid, PostCSS, CSSNext)
     
     
 ##GRID
+
 ###grid-template-rows
     가로
     ex: grid-template-rows : 12px 40px;
     => 가로로 각각 12px, 40px 블록이 2개
+    
 ###grid-template-columns
     세로
     ex: grid-template-columns : 30px 30px; 
@@ -171,3 +174,13 @@ CSS (Flexbox, Grid, PostCSS, CSSNext)
     auto-fill : 공간을 미리 배정해둔 grid를 만든 뒤에 , 해당하는  cell이 입력되는 방식으로 작동
     => grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
     일단 ghost grid를 만들고 가능한 많은 cell로 container를 꽉 채우는 놈.. cell은 비어있을 수 있다. (box가 없으면)
+    
+    
+### align-content
+    align-content : center;
+    height: 100vh 일때 상하로 왔다갔다.. center, start, end ...
+### justify-content
+    하위 박스 전부 ! 통째로 ! {}좌우로 왔다갔다 .. center, start, end...
+    justify-content: center;
+### place-content
+    place-content:center(상하 align-content) end(좌우 justify-content);
