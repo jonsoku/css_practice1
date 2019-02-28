@@ -7,42 +7,39 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <style>
+
         .father{
             display:grid;
-            grid-auto-rows: 200px;
             grid-gap: 5px;
-            grid-template-areas:
-                    "header header header"
-                    "content content sidebar"
-                    "content content sidebar"
-                    "footer footer footer"
+            /* fr : fraction */
+            /* grid-template-columns: 1fr 2fr 3fr 4fr; */
+            grid-template-columns: min-content repeat(3, 1fr);
+
+
         }
 
         .first{
-            grid-area:header;
             background-color: #ffdd00;
         }
         .second{
-            grid-area: sidebar;
             background-color: #00a4e4;
         }
         .third{
-            grid-area:footer;
             background-color: #00a78e
         }
         .fourth{
-            grid-area:content;
             background-color: #ff4c4c
         }
+
 
     </style>
 </head>
 <body>
 <div class="father">
-    <div class="first"></div>
-    <div class="second"></div>
-    <div class="third"></div>
-    <div class="fourth"></div>
+    <div class="first">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusantium adipisci cum doloremque enim et ex impedit iusto, labore magni, nam, neque nobis optio possimus quas quod quos ut voluptas.</div>
+    <div class="second">2</div>
+    <div class="third">3</div>
+    <div class="fourth">4</div>
 </div>
 </body>
 </html>

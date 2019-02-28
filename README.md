@@ -13,9 +13,9 @@ CSS (Flexbox, Grid, PostCSS, CSSNext)
 ### CSS Grid
 
 - [x] CSS Grid Basics ( Row, columns and gaps)
-- [ ] Auto columns, auto rows
-- [ ] Template Areas
-- [ ] fr unit, repeat
+- [x] Auto columns, auto rows
+- [x] Template Areas
+- [x] fr unit, repeat
 - [ ] minmax, max-content, min-content
 - [ ] auto-fill, auto-fit
 - [ ] Justify Content, Align Content and Place Content
@@ -130,4 +130,37 @@ CSS (Flexbox, Grid, PostCSS, CSSNext)
     나머지 요소값들에 자동으로 적용.
 
 
-###grid
+###grid-template-areas grid-area 
+    
+    상위 태그에 스케치를 하고....
+    grid-template-areas:
+            "header header header"
+            "content content sidebar"
+            "content content sidebar"
+            "footer footer footer"
+    하위 박스태그에 영역을 지정해준다.
+    grid-area:footer; 
+    
+    
+### fr : fraction
+    .father{
+        display:grid;
+        grid-auto-rows: 200px;
+        grid-gap: 5px;
+        /* fr : fraction */
+        grid-template-columns: 2fr 1fr 2fr 1fr;
+        -> 상대적으로 다른놈들이 조정됨..
+    }
+    
+    grid-template-columns: repeat(4, 1fr);
+    1fr 의 너비로 4번 반복한다 ( 4개의 그리드? 영역?을 만든다)
+    
+### grid-template-columns
+    grid-template-columns: minmax(400px, 2fr) repeat(3, 1fr);
+    
+    minmax( 최소값 , 보통값 )
+    min-content : 박스안에 내용이 있다면 최소한으로줄여서 (너비를) 보여줌
+    max-content : 박스안에 내용만큼 너비를 늘려줌 (타이틀만들때유용하겠네!)
+            
+### auto-fill, auto-fit
+     
