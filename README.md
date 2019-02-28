@@ -4,7 +4,7 @@ CSS (Flexbox, Grid, PostCSS, CSSNext)
 
 ### CSS Flex
 
-- [ ] CSS Flex Basics
+- [x] CSS Flex Basics
 - [ ] Main Axis and Cross Axis
 - [ ] Flex Direction
 - [ ] Flex Wrap

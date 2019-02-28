@@ -14,6 +14,11 @@
         */
         .father{
             display:flex;
+            /*
+            display:flex를 준 순간부터 이미 방향은 row로 결정되어있다.
+            => flex-direction: ( column / row )으로 바꿀 수 있다. => cross axis <=> main axis가 서로 뒤바뀜
+            */
+            flex-direction: row;
             justify-content: space-between;
             /*
             flex-end : 끝쪽에 정렬
@@ -21,6 +26,12 @@
             space-around : item 주변에 간격을 동일하게 준다.
             space-between : item 주변에 간격을 동일하게준다 . (but left,right(벽과 맞닿은부분은 적용되지않는다.))
             */
+            align-items: center;
+            /*
+            - cross axis에 있는 아이템을 움직이려면, align-items
+            - main axix에 있는 아이템을 움직이려면 justify-content
+             */
+            height: 100vh;
         }
         .box{
             width: 300px;
