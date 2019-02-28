@@ -9,30 +9,40 @@
     <style>
         .father{
             display:grid;
-            grid-template-columns: 300px 150px;
-            grid-template-rows: 300px 120px;
-            grid-gap: 10px;
-            /* 만약 더 많은 컬럼과 로우가있다면*/
-            grid-auto-columns: 60px;
-            grid-auto-flow: column;
+            grid-auto-rows: 200px;
+            grid-gap: 5px;
+            grid-template-areas:
+                    "header header header"
+                    "content content sidebar"
+                    "content content sidebar"
+                    "footer footer footer"
         }
 
-        .box{
-            background-color: #f1c40f;
+        .first{
+            grid-area:header;
+            background-color: #ffdd00;
         }
+        .second{
+            grid-area: sidebar;
+            background-color: #00a4e4;
+        }
+        .third{
+            grid-area:footer;
+            background-color: #00a78e
+        }
+        .fourth{
+            grid-area:content;
+            background-color: #ff4c4c
+        }
+
     </style>
 </head>
 <body>
 <div class="father">
-    <div class="box"></div>
-    <div class="box"></div>
-    <div class="box"></div>
-    <div class="box"></div>
-    <div class="box"></div>
-    <div class="box"></div>
-    <div class="box"></div>
-    <div class="box"></div>
-    <div class="box"></div>
+    <div class="first"></div>
+    <div class="second"></div>
+    <div class="third"></div>
+    <div class="fourth"></div>
 </div>
 </body>
 </html>
