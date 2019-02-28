@@ -12,7 +12,7 @@ CSS (Flexbox, Grid, PostCSS, CSSNext)
 
 ### CSS Grid
 
-- [ ] CSS Grid Basics ( Row, columns and gaps)
+- [x] CSS Grid Basics ( Row, columns and gaps)
 - [ ] Auto columns, auto rows
 - [ ] Template Areas
 - [ ] fr unit, repeat
@@ -51,6 +51,13 @@ CSS (Flexbox, Grid, PostCSS, CSSNext)
 ### Exercices
 
 
+
+
+
+
+
+
+##FLEX
 ### Flex의 기본 개념 두가지
     Flex-container와 Flex-item
 
@@ -98,3 +105,23 @@ CSS (Flexbox, Grid, PostCSS, CSSNext)
 ### align-self
     father(박스의 상위태그)에게 주는 옵션이 아닌, box와 같은 아이템들에 직접 옵션을 주는놈
     => flex-container 대신에 flex-item들에게 주는 것.
+    
+    
+    
+    
+    
+    
+    
+##GRID
+###grid-template-rows
+    가로
+    ex: grid-template-rows : 12px 40px;
+    => 가로로 각각 12px, 40px 블록이 2개
+###grid-template-columns
+    세로
+    ex: grid-template-columns : 30px 30px; 
+    => 세로로 각각 30px 블록이 2개
+
+    
+###grid-gap
+               
