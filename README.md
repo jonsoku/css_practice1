@@ -184,3 +184,15 @@ CSS (Flexbox, Grid, PostCSS, CSSNext)
     justify-content: center;
 ### place-content
     place-content:center(상하 align-content) end(좌우 justify-content);
+    
+### align-items 
+    align-items:center;
+    vertical(수직/상하)하게 좁혀졌지만 horizontal(수평/좌우)하게는 중앙으로 늘어남.
+### justify-items
+    justify-items:center;
+    vertical(수직/상하)하게 늘어났지만 horizontal하게는 중앙으로 좁혀짐.
+### place-items
+    place-items:center(상하 align-items) end(좌우 justify-items);
+    content가 늘어나는걸 원하지 않을떄..
+    
+
