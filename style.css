@@ -22,12 +22,30 @@
     /*color:#8e44ad;*/
 /*}*/
 
-
+/*
 @custom-media --ipad-size (450px <= width < 850px);
 
 @media (--ipad-size) {
     body {
         background-color: #ff93f5;
     }
+}*/
 
+main{
+    background-color: blue;
+    & section{
+        background-color: red;
+        width:500px;
+        & li{
+            background-color: yellow;
+            width:400px;
+            & a{
+                color:black;
+                &:hover{
+                    font-size:30px;
+                }
+            }
+        }
+    }
 }
+

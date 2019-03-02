@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1434ccf-ba6c-4252-8d5d-0f2090e9086f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/cssdialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.cache/02/5e8ebecf8c607cab099f6ce6dbcc83.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/02/5e8ebecf8c607cab099f6ce6dbcc83.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/78/91d76bd6c953c861b3d1af78a1f115.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/78/91d76bd6c953c861b3d1af78a1f115.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/99/b0ef688e195f7e8f945b947aa9342a.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/99/b0ef688e195f7e8f945b947aa9342a.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.cache/ee/630f2b2eaeec7141338178b0e01b0a.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/ee/630f2b2eaeec7141338178b0e01b0a.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.cache/fc/6ae39a08ff6efde41e23497a5e93fd.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/fc/6ae39a08ff6efde41e23497a5e93fd.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -11,6 +12,8 @@
       <change beforePath="$PROJECT_DIR$/dist/style.e308ff8e.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/style.e308ff8e.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/style.e308ff8e.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/style.e308ff8e.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/postcss-color-mod-function/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/postcss-color-mod-function/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,7 +40,7 @@
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="442">
-              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+              <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -45,8 +48,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+            <state relative-caret-position="306">
+              <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -54,8 +57,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+            <state relative-caret-position="731">
+              <caret line="43" column="18" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -80,8 +83,8 @@
       <list>
         <option value="$PROJECT_DIR$/flexbox.html" />
         <option value="$PROJECT_DIR$/grid.html" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/style.css" />
       </list>
@@ -118,6 +121,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.stylelint" value="true" />
+    <property name="node.js.path.for.package.stylelint" value="project" />
+    <property name="node.js.selected.package.stylelint" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -149,18 +155,20 @@
       <workItem from="1551362727920" duration="3000" />
       <workItem from="1551517450499" duration="5528000" />
       <workItem from="1551526669469" duration="763000" />
-      <workItem from="1551527547083" duration="284000" />
+      <workItem from="1551527547083" duration="656000" />
+      <workItem from="1551528220898" duration="355000" />
+      <workItem from="1551528596983" duration="524000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14606000" />
+    <option name="totallyTimeSpent" value="15857000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="23" width="1202" height="1367" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23275863" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23965517" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -198,27 +206,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        <state relative-caret-position="306">
+          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+        <state relative-caret-position="731">
+          <caret line="43" column="18" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
         </state>
       </provider>
     </entry>

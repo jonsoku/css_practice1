@@ -22,9 +22,34 @@
     /*color:#8e44ad;*/
 /*}*/
 
-@media (min-width: 450px) and (max-width: 849px) {
+/*
+@custom-media --ipad-size (450px <= width < 850px);
+
+@media (--ipad-size) {
     body {
         background-color: #ff93f5;
     }
+}*/
 
+main{
+    background-color: blue
 }
+
+main section{
+        background-color: red;
+        width:500px
+    }
+
+main section li{
+            background-color: yellow;
+            width:400px
+        }
+
+main section li a{
+                color:black
+            }
+
+main section li a:hover{
+                    font-size:30px;
+                }
+
