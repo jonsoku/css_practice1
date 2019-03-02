@@ -195,4 +195,19 @@ CSS (Flexbox, Grid, PostCSS, CSSNext)
     place-items:center(상하 align-items) end(좌우 justify-items);
     content가 늘어나는걸 원하지 않을떄..
     
+### flex+grid 
+    .box:first-child{
+        
+        line을 기준으로 !
+        grid-column: 1 / 3;
+        
+                = 
+        
+        grid-column-start: 1;
+        grid-column-end: 3;
+        
+        grid-column-start : 1
+        grid-column-end : -1 
+            >>>> 자동적으로 맨 마지막줄로 이동
+    }
 
