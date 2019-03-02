@@ -223,5 +223,35 @@ CSS (Flexbox, Grid, PostCSS, CSSNext)
             
             grid-area: span 3 / span 2;
         }
-     
+###place-self
+        .box:first-child{
+            place-self: center start;
+            /*
+            justify-self: center;
+            align-self: center;
+            */
+        }
+        
+        
+### install Parcel
+    1. npm init -y
+    2. package-json에 있는 script 줄을 지운다.
+    3. sudo npm install -g parcel-bundler
+    4. index.html -> style.css 생
+    5. package.json에 
+      "scripts": {
+        "start" : "parcel index.html"
+      }
+      추가
+    6. 터미널에 npm run start 
+
+## cssdb.org    
+
+### css plugin
+    PostCSS , Preset Env
+    
+    https://preset-env.cssdb.org/
+    1. npm install postcss-preset-env
+    
+
 
