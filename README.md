@@ -210,4 +210,16 @@ CSS (Flexbox, Grid, PostCSS, CSSNext)
         grid-column-end : -1 
             >>>> 자동적으로 맨 마지막줄로 이동
     }
+### grid-column, row
+
+     .box:first-child{
+         grid-column : span 4;
+         grid-row: span 3;
+         
+### grid-area
+        .box:first-child{
+            /* row start / column start / row end / column end */
+            grid-area: 2 / 1 / 4 / -1;
+        }
+     
 
