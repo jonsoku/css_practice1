@@ -220,6 +220,8 @@ CSS (Flexbox, Grid, PostCSS, CSSNext)
         .box:first-child{
             /* row start / column start / row end / column end */
             grid-area: 2 / 1 / 4 / -1;
+            
+            grid-area: span 3 / span 2;
         }
      
 
