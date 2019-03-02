@@ -3,6 +3,20 @@
 /*}*/
 
 
-li:not(.target){
-    background-color: aqua;;
+/*li:not(.target){*/
+    /*background-color: aqua;;*/
+/*}*/
+
+
+:root{
+    --awesomeColor:#ffdd00;
+}
+
+li:first-child a{
+    color:#ffdd00;
+    color:var(--awesomeColor);
+}
+
+h1,h2,h3,h4,h5,h6{
+    color:#8e44ad;
 }
