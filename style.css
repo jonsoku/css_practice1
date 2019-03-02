@@ -8,16 +8,26 @@
 /*}*/
 
 
-:root{
-    --awesomeColor:#ffdd00;
-}
+/*:root{*/
+    /*--awesomeColor:#ffdd00;*/
+/*}*/
 
-li:first-child a{
-    color:var(--awesomeColor);
-}
+/*li:first-child a{*/
+    /*color:var(--awesomeColor);*/
+/*}*/
 
-@custom-selector :--headers h1, h2, h3, h4, h5, h6;
+/*@custom-selector :--headers h1, h2, h3, h4, h5, h6;*/
 
-:--headers{
-    color:#8e44ad;
+/*:--headers{*/
+    /*color:#8e44ad;*/
+/*}*/
+
+
+@custom-media --ipad-size (450px <= width < 850px);
+
+@media (--ipad-size) {
+    body {
+        background-color: #ff93f5;
+    }
+
 }

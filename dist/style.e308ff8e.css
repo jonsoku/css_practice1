@@ -8,15 +8,23 @@
 /*}*/
 
 
-:root{
-    --awesomeColor:#ffdd00;
-}
+/*:root{*/
+    /*--awesomeColor:#ffdd00;*/
+/*}*/
 
-li:first-child a{
-    color:#ffdd00;
-    color:var(--awesomeColor);
-}
+/*li:first-child a{*/
+    /*color:var(--awesomeColor);*/
+/*}*/
 
-h1,h2,h3,h4,h5,h6{
-    color:#8e44ad;
+/*@custom-selector :--headers h1, h2, h3, h4, h5, h6;*/
+
+/*:--headers{*/
+    /*color:#8e44ad;*/
+/*}*/
+
+@media (min-width: 450px) and (max-width: 849px) {
+    body {
+        background-color: #ff93f5;
+    }
+
 }
